@@ -1,0 +1,57 @@
+nav.bg-main-grey {
+    background-color: #F5F5F5;
+}
+
+table.table thead {
+    --bs-table-bg: transparent;
+    --bs-table-striped-color: #424242;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #424242;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #424242;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    color: #424242;
+}
+
+button.transition {
+    -webkit-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+button.hv-danger:hover {
+    background-color: #EF5350;
+    color: #FFF;
+}
+
+button.btn-primary {
+    background-color: #039BE5;
+    border-color: #039BE5;
+}
+
+button.btn-primary:hover {
+    background-color: #0288D1;
+    border-color: #0288D1;
+}
+
+input.form-control:hover {
+    outline-color: #039BE5;
+    border-color: #039BE5;
+}
+
+input.form-control:focus {
+    outline-color: #0288D120;
+    border-color: #0288D120;
+    box-shadow: 0 0 0 0.25rem #0288D150;
+}
+
+input.form-check-input:checked {
+    background-color: #039BE5;
+    border-color: #039BE5;
+}
+
+div.text-danger small {
+    color: #EF5350;
+}
